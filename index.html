@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Clima</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="searchbar" placeholder="Buscar">
+            <button class="search-button">
+                <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="10" cy="10" r="6" fill="currentColor" />
+                </svg>
+            </button>
+        </div>        
+        <div class="weather loading">
+            <h2 class="city">Lluvía en Argentina</h2>
+            <h1 class="temp">25°C</h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/02n.png" class="icon"></img>
+                <div class="description">Nublado</div>
+            </div>
+            <div class="humidity">Humedad: 60%</div>
+            <div class="wind">Velocidad del Viento: 6.2 km/h</div>
+        </div>
+    </div>
+
+    <footer>
+        <button class="creator-button">Creador</button>
+    </footer>
+</body>
+</html>

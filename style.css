@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 120%;
+}
+
+.card {
+    background: #000000d0;
+    color: whitesmoke;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input.searchbar {
+    border: none;
+    outline: none;
+    padding: 0.5em 0.8em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: whitesmoke;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+}
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading:after{
+    visibility: visible;
+    content: "Loading....";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.searchbar {
+    transition: transform 0.3s ease;
+}
+
+.searchbar:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 0, 150, 0.5); /* Agrega un brillo rosa alrededor */
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    font-size: 20px;
+    color: #333;
+    line-height: 1; 
+}
+
+.search-button:hover {
+    transform: scale(1.07);
+}
+
+footer {
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+.creator-button {
+    background-color: #141414a2;
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.creator-button:hover {
+    background-color: #70003ea2; /* Color de fondo del botón al pasar el mouse */
+    transform: scale(1.07);
+    box-shadow: 0 0 15px rgba(255, 68, 177, 0.808); /* Agrega un brillo rosa alrededor */
+}
