@@ -64,7 +64,7 @@ h1.temp {
 
 .weather.loading:after{
     visibility: visible;
-    content: "Loading....";
+    content: "Cargando...";
     color: white;
     position: absolute;
     top: 0;
@@ -77,7 +77,7 @@ h1.temp {
 
 .searchbar:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(255, 0, 150, 0.5); /* Agrega un brillo rosa alrededor */
+    box-shadow: 0 0 10px rgba(255, 0, 150, 0.5); 
 }
 
 .search-button {
@@ -114,7 +114,7 @@ footer {
 
 .creator-button {
     background-color: #141414a2;
-    color: #fff; /* Color del texto del botón */
+    color: #fff; 
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
@@ -124,7 +124,7 @@ footer {
 }
 
 .creator-button:hover {
-    background-color: #70003ea2; /* Color de fondo del botón al pasar el mouse */
+    background-color: #70003ea2;
     transform: scale(1.07);
-    box-shadow: 0 0 15px rgba(255, 68, 177, 0.808); /* Agrega un brillo rosa alrededor */
+    box-shadow: 0 0 15px rgba(255, 68, 177, 0.808);
 }
